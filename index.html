@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>8bit Junky</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <script src="https://kit.fontawesome.com/e8ce115413.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+
+</head>
+
+<body>
+
+    <nav id="navigation" class="navbar navbar-expand-lg color-primary sticky-top shadow-sm p-3">
+        <a class="navbar-brand" href="#">8bit Junky</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="about" class="section about-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="profile-pic shadow img-fluid" src="images/moaty-profile-pic.jpg" alt="" srcset="">
+                    <h4 class="mx-auto text-center mt-3">Mohamed abdel-Moaty Hassan</h4>
+                    <div class="container mt-4">
+                        <p class="container text-center">Studying Electrical and Computer Engineering at the
+                            Ernst-Abbe-Hochschule Jena, Germany</p>
+                        <div class="col-sm-12 mt-5 row container ">
+                            <div class="mx-auto">
+                                <a href="https://www.instagram.com/hamood.moaty/"
+                                    class="socialmedia fab fa-2x fa-instagram" target="_blanck"></a>
+                                <a href="https://twitter.com/moaty97" class="pl-3 socialmedia fab fa-2x fa-twitter" target="_blanck"></a>
+                                <a href="https://github.com/MoatyX" class="pl-3 socialmedia fab fa-github fa-2x" target="_blanck"></a>
+                                <a href="mailto:moatyiv@gmail.com" class="pl-3 socialmedia fas fa-at fa-2x" target="_blanck"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 my-5">
+                    <h4>Hi there! I am Moaty</h4>
+                    <p>
+                        i am full of passion for Computers, and Engineering, I have both the skill set and technical
+                        background necessary to dive deep into the world of Hardware and Software development. As a
+                        positive, self-motivated team player, I envision an exciting future in the industry. Browse my
+                        site to see all that I have to offer.
+                    </p>
+
+                    <div class="mt-2">
+                        <a class="btn btn-success" download="mohamed_hassan_cv.pdf" href="resources/CV Mohamed Hassan.pdf" target="_blanck">
+                            Download my CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="section projects-bg">
+        <div class="prj-slider">
+            <h1 class="text-center font-weight-bold text-white">Projects</h1>
+            <div class="container text-center text-white">
+                <p>Cool Projects I have worked on</p>
+            </div>
+            <i class="fas fa-arrow-left fa-2x prev"></i>
+            <i class="fas fa-arrow-right fa-2x next"></i>
+            <div class="prj-slider-wrapper">
+                <div id="renesas" class="project">
+                    <h4>Renesas Robot Rally</h4>
+                    <p>I was a member on the team, from the EAH Jena, who Developed a fully autonomous robot car from scratch, able
+                        to traverse the Renesas track for the Renesas Car Rally Event at Embedded World Exhibition 2020.
+                        <br>
+                        <br>
+                        I had so much fun working on this Project in a team. 
+                        The Team consisted of 2 Precision Engineering students that did the CAD and mechanics, 
+                        in addition to 6 from the department of Electrical Engineering (including me), That worked on the sensors Network, 
+                        Motors and the programming of the robot, on a custom Renesas Board. <br><br>
+                        We then divided ourselves into 2 teams of 4, to create 2 independant robots with the same goal. <br>
+                        The 2 departments worked together to try design a mechanically efficient and robust robot, able to traverse the specified Renesas Track.
+                        <br>
+                        <br>
+                        Sadly though....after months of work, and 2 weeks before the actual rally, the Exhibition was cancelled
+                        because of the COVID-19 Pandemic back at end of February 2020. <br>
+                        Our creation didn't get to see the light of day, 
+                        but the University decided to use this robot and the track we built, as a fun demo to show young students graduating high school, 
+                        what they would learn if they study Electrical Engineering or Precision Engineering. <br>
+                        <br>
+                        Here is a picture of me at one night, trying to get the 90° curves logic consistently working at high speeds: <br>
+                    </p>
+                    <div class="mt-4">
+                        <img class="prj-img rounded img-fluid" src="images/renesas_rally_project.jpeg"
+                            alt="me programming the robot we created">
+                    </div>
+                </div>
+                <div id="rtos" class="project">
+                    <h4>Real-time Operating Systems (RTOS)</h4>
+                    <p>
+                        I have experience so far with 2 RTOSs, the one we used at the University with various projects: <i>FreeRTOS</i>. and one that
+                        we played with at Navimatix: <i>Zephyr</i>.
+                        ​<br>
+                        <br>
+                        At the university: I finished a project, where I implemented a simple Command Interface using
+                        the UART on an STM32 board, to issue control-commands to the processor to do various stuff. for example:
+                        fetch various forms of data from sensors (Temperature, Acceleration...etc), do something with
+                        that data, do something based on that data, interface with a Filesystem to store data and so on...
+                        <br>
+                        <br>
+                        At Navimatix: I played around a lot with Zephyr, writing Drivers for custom hardware,
+                        configuring its Kernal to fit our custom Board and eventually writing Applications that run on Zephyr.
+                        <br>
+                        Zephyr and FreeRTOS are very different from each other. but they both did what an RTOS does.
+                        <br>
+                        <br>
+                        The current project at Navimatix is still under development, cooperatively with multiple international teams in
+                        different companies so i cannot share in-depth details about what we are actually working on.
+                    </p>
+                </div>
+                <div id="uni2cast" class="project">
+                    <h4>Navimatix Uni2Cast</h4>
+                    <p>Worked briefly on the Navimatix Uni2Cast Project. where my task was to implement certain
+                        communication protocols for IoT devices.
+                        <br>
+                        unfortunately I cannot share more information than
+                        that, since the product is still in development.
+                        <br>
+                        but here is a link to the Project on Navimatix's Website: <a href="https://www.navimatix.de/forschung-und-entwicklung" target="_blanck">https://www.navimatix.de/forschung-und-entwicklung</a>
+                    </p>
+                </div>
+                <div id="serimed" class="project">
+                    <h4>Serimed Terminal App</h4>
+                    <p>
+                        I was offered a task from the company Serimed, to make them a web app that helps them more
+                        efficiently do their Job of:
+                        <br>
+                    <ul>
+                        <li>
+                            dynamically reporting back the examination of their medical
+                            devices to customers
+                        </li>
+                        <li>
+                            make it easy for the customers to register for a Serimed service and staying up-to-date
+                            through a Frontend portal
+                        </li>
+                        <li>
+                            have a cleaner and more manageable database of their customers (and their data) than the one
+                            they had
+                        </li>
+                    </ul>
+                    <br>
+                    a Fullstack web development project, something that I have only had basic knowledge about so far, so i decided
+                    to broaden my horizon and take a break from Game Development to try something new.
+                    <br>
+                    I took the task and created a fully functioning prototype system in the 6 months contract i had with
+                    the company Serimed. then towards the end of the my development phase, I had a lot of meetings with another company called Jendata
+                    Computersystems GmbH, to transition my Prototype into Production, which became Jendata's job.
+                    <br>
+                    </p>
+                </div>
+                <div id="genericik" class="project">
+                    <h4>Generic IK</h4>
+                    <p>
+                        This is one of my favorite projects I've worked on. this project I developed in my spare-time
+                        for fun, out of my passion to action Video Games.
+                        <br>
+                        ​<br>
+                        Introduction:
+                        <br>
+                        Generic IK stands for Generic Inverse Kinematics. which is basically a set of equations
+                        (algorithms) that controls the motion of each connected rigid body in a chain, connected
+                        rigid-bodies are referred to as "joints". 
+                        <br>
+                        The goal is to orient/position the last joint (called
+                        "End-Effector") in the chain to reach a specific target.
+                        <br> 
+                        to simplify more: think about how your brain automatically controls the limb muscles of each joint from your
+                        shoulder down to your palm,
+                        in order to let your palm (End-Effector) reach a target (a cup of Tee for example)
+                        <br>
+                        it is used extensively in computer graphics to achieve dynamics 3D character animations, animations that interact with Environment.
+                        <br>
+                        and also in the robotic industry, to control for example a robotic arm on an assembly line.
+                        <br> of course, for each application the algorithm needs to be adjusted a bit
+                        ​<br>
+                        <br>
+                        what I have done, is implementing some algorithms to apply that effect to any shape/form of
+                        joints, not only characters (hence Generic). with some extra simulation features like, Joint Motion Range, 
+                        to allow the user to set motion limits, a User
+                        Interfance to drive the internal API and many other
+                        <br>
+                        Code and Youtube demo videos linked here:
+                        <br>
+                        Github Repository: <a target="_blanck"
+                            href="https://github.com/MoatyX/Generic-IK">https://github.com/MoatyX/Generic-IK</a>
+                        <br>
+                        Youtube Demo: <a target="_blanck"
+                            href="https://www.youtube.com/watch?v=HvEiKmXeikE">https://www.youtube.com/watch?v=HvEiKmXeikE</a>
+                        <br>
+                    </p>
+                </div>
+                <div id="acs" class="project">
+                    <h4>Animation Combo System</h4>
+                    <p>
+                        Another project coming out of video games. I created this plugin after Generic IK, for a 3D
+                        fighting game i was developing in my free time for fun.
+                        <br>
+                        <br>
+                        basically: its a system to register a specific key-input sequence, and bind that with a specific
+                        character animation sequence.
+                        <br>
+                        in a fighting game, you would like to chain the attacks (i.e: do an attack combo) so you can
+                        re-use single animation clips of punches for example, play them in different order, to create an
+                        attack sequence. ACS allowed you to very easily do that, and took care of stuff like animation
+                        Synchronisation, triggering user-specified logic and registering key sequences.
+                        <br>
+                        <br>
+                        Github Repository: <a target="_blanck"
+                            href="https://github.com/MoatyX/Animation-Combo-System">https://github.com/MoatyX/Animation-Combo-System</a>
+                        <br>
+                        Youtube Demo: <a target="_blanck"
+                            href="https://www.youtube.com/watch?v=nerQlE9L2MY">https://www.youtube.com/watch?v=nerQlE9L2MY</a>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="skills" class="section skills-bg">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="techstack-header font-weight-bold">Technology Stack</h1>
+                <p class="font-italic">Technologies I am comfortable with</p>
+            </div>
+            <div class="skills-list text-center row">
+                <div class="col container skill">
+                    <img class="skill-logo mt-5" src="images/c-86.png" alt="c/c++">
+                    <div class="row-sm-12 mt-4">
+                        <h4>C/C++</h4>
+                    </div>
+                    <div class="row-sm-12 mt-4">
+                        <h6>Embedded</h6>
+                    </div>
+                </div>
+                <div class="col container skill">
+                    <img class="skill-logo mt-5" src="images/c-sharp-86.png" alt="c#">
+                    <div class="row-sm-12 mt-4">
+                        <h4>C#</h4>
+                    </div>
+                    <div class="row-sm-12 mt-4">
+                        <h6>ASP.NET, WPF</h6>
+                    </div>
+                </div>
+                <div class="col container skill">
+                    <img class="skill-logo mt-5" src="images/python-86.png" alt="c#">
+                    <div class="row-sm-12 mt-4">
+                        <h4>Python</h4>
+                    </div>
+                    <div class="row-sm-12 mt-4">
+                        <h6>Scripting</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-list text-center row">
+                <div class="col container skill">
+                    <img class="skill-logo mt-5" src="images/android-86.png" alt="c/c++">
+                    <div class="row-sm-12 mt-4">
+                        <h4>Android Studio</h4>
+                    </div>
+                    <div class="row-sm-12 mt-4">
+                        <h6>App Development with Java and Native C++</h6>
+                    </div>
+                </div>
+                <div class="col container skill">
+                    <i class="fas fa-code fa-5x skill-logo mt-5"></i>
+                    <div class="row-sm-12 mt-4">
+                        <h4>Web</h5>
+                    </div>
+                    <div class="row-sm-12 mt-4">
+                        <h6>HTML, Angular, Springboot and JavaScript</h6>
+                    </div>
+                </div>
+                <div class="col container skill">
+                    <img class="skill-logo mt-5" src="images/fpga-86.png" alt="c#">
+                    <div class="row-sm-12 mt-4">
+                        <h5>FPGA</h5>
+                    </div>
+                    <div class="row-sm-12 mt-4">
+                        <h6>FPGA with VHDL</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-list text-center row mt-3">
+                <div class="col container skill mt-3">
+                    <h1 class="dx">DirectX 12</h1>
+                    <div class="row-sm-12 mt-4">
+                        <h4>DX12 Graphics API</h4>
+                    </div>
+                    <div class="row-sm-12 mt-4">
+                        <h6>Computer Graphics and Game Development</h6>
+                    </div>
+                </div>
+                <div class="col container skill">
+                    <img src="images/unity.png" alt="unity">
+                    <div class="row-sm-12 mt-4">
+                        <h4>Unity Game Engine</h4>
+                    </div>
+                    <div class="row-sm-12 mt-4">
+                        <h6>Game Development</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="section footer-bg">
+        <div class="text-center">
+            <h3 class="footer-header">Let me hear from You !</h3>
+            <a class="fas fa-arrow-up fa-2x nav-link" href="#"></a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src='js/main.js'></script>
+
+</body>
+
+</html>
